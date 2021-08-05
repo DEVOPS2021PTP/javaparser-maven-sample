@@ -1,3 +1,7 @@
+Test Commit
+checking scm settings
+jsbvjkndsjvnjdsknvkjsdnvksdn
+______________________-
 JavaParser and Maven sample
 ---
 
