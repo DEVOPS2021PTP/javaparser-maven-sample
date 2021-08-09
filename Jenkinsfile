@@ -1,5 +1,9 @@
 pipeline {
     agent any
+    tools {
+        maven "maven-test"
+		jdk "Chalapathi"
+    }
     stages {
         stage('Building Maven Project') {
             steps {
