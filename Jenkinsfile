@@ -1,9 +1,5 @@
 pipeline {
     agent any
-    tools {
-        maven "maven-test"
-	git "Default"
-    }
     stages {
         stage('Building Maven Project') {
             steps {
