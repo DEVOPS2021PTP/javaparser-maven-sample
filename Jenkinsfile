@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         maven "maven-test"
-		git "Default"
+	git "Default"
     }
     stages {
         stage('Building Maven Project') {
