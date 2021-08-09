@@ -1,9 +1,13 @@
 pipeline {
-    agent any 
+    agent any
+    tools {
+        maven "maven-test"
+    }
     stages {
-        stage('Example Build') {
+        stage('Building Maven Project') {
             steps {
-                echo "Hello puthalapattu police staion batch"
+                git 'https://github.com/Chala9228/javaparser-maven-sample.git'
+                sh "mvn clean package"
             }
         }
     }
