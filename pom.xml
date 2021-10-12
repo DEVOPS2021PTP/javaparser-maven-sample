@@ -17,7 +17,22 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <!-- Tell Maven to treat all source files as UTF-8 -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+</properties>
+
+
+
+
+<this is for practice>
+	<dont take it serious>
+		<please approve it>
+		</this is for practice>
+
+
+
+
+
+
+
 
     <dependencies>
         <!-- Here are all your dependencies. Currently only one. These are automatically downloaded from https://mvnrepository.com/ -->
